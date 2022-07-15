@@ -1,0 +1,82 @@
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #756f6f 50%, #ba132f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+
+.group{
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  width: 50vw;
+  left:50%;
+}
+
+  .title{
+  padding-top: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+  .text{
+  padding-bottom: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+  .socialmedia{
+    padding-left: .15rem;
+    padding-right: .15rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+.nav-link:hover{
+          background-color: #756f6f; 
+          border-radius: 25px;
+}
+
