@@ -1,3 +1,5 @@
+![Screen Shot 2022-07-14 at 8 52 01 PM](https://user-images.githubusercontent.com/92279620/179125052-625defc3-f7c8-49b9-b0cd-aa0a5a5966bf.png)
+
 https://kyletchiu.github.io/PortfolioV4/
 
 #Non-React Demo Portfolio
